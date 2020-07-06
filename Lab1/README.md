@@ -1,4 +1,4 @@
-# Lab 1 - Prepare for OpenFaaS
+# Lab 1 - Prepare for OpenFaaS (Chuẩn bị cho OpenFaaS)
 
 Yêu cầu của Lab:
 - Cài đặt Docker, Kubernetes và OpenFaaS CLI
@@ -193,6 +193,12 @@ kubectl rollout status -n openfaas deploy/gateway
 kubectl port-forward -n openfaas svc/gateway 8080:8080 &
 ```
 
+> Tips: để ra khỏi local chỉ cần chỉnh lại port-forward và IP cần ra
+
+```
+kubectl port-forward -n openfaas  --address localhost,<your-ip> svc/gateway 8080:8080 &
+```
+
 Gateway URL : http://127.0.0.1:8080
 
 **- Lấy mật khẩu để đăng nhập**
@@ -205,7 +211,11 @@ faas-cli login --username admin --password=$PASSWORD
 echo $PASSWORD
 ```
 
-Kiểm tra danh sách function
+![](../screenshot/login-openfaas-1.png)
+
+![](../screenshot/login-openfaas-2.png)
+
+**Kiểm tra danh sách function**
 
 ```
 faas-cli list
@@ -220,5 +230,7 @@ export OPENFAAS_URL="your-url"
 ```
 
 Ví dụ: http://127.0.0.1:8080
+
+## Tham khảo lệnh từ https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 
 Hoàn thành! Qua [lab2](../Lab2/)

@@ -35,6 +35,15 @@ faas-cli deploy -f https://raw.githubusercontent.com/openfaas/faas/master/stack.
 
 ![](../screenshot/invoke-f1.png)
 
+Người dùng sẽ thấy các thuộc tính trên UI, cùng tìm hiểu
+
+- Status: khi Status chuyển sang Ready thì function mới có thể được sử dụng
+- Replicas: số lượng bản sao function đó có trong cluster
+- Image: tên Docker image cùng với version đã được chia sẻ trên Docker repository / Docker Hub
+- Invocation count: số lần gọi function và cập nhật cứ mỗi 5 giây.
+
+Khi ấn Invoke thì Invocation count sẽ tăng.
+
 **- Sử dụng CLI**
 
 Kiểm tra danh sách function đang có

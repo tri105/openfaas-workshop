@@ -231,6 +231,6 @@ export OPENFAAS_URL="your-url"
 
 Ví dụ: http://127.0.0.1:8080
 
-## Tham khảo lệnh từ https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
+### Tham khảo lệnh từ https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands
 
 Hoàn thành! Qua [lab2](../Lab2/)

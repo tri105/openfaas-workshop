@@ -61,12 +61,12 @@ Application:
 - Apply labels via the GitHub API
 - Complete the function
 
-### [Lab 6 - HTML for your functions]((/Lab6)
+### [Lab 6 - HTML for your functions](/Lab6)
 - Generate and return basic HTML from a function
 - Read and return a static HTML file from disk
 - Collaborate with other functions
 
-### [Lab 7 - Asynchronous Functions]((/Lab7)
+### [Lab 7 - Asynchronous Functions](/Lab7)
 - Call a function synchronously vs asynchronously
 - View the queue-worker's logs
 - Use an X-Callback-Url with requestbin and ngrok
@@ -75,7 +75,7 @@ Application:
 - Adjust timeouts with read_timeout
 - Accommodate longer running functions
 
-### [Lab 9 - Advanced Feature - Auto-scaling]((/Lab9)
+### [Lab 9 - Advanced Feature - Auto-scaling](/Lab9)
 - See auto-scaling in action
 - Some insights on min and max replicas
 - Discover and visit local Prometheus
@@ -83,13 +83,18 @@ Application:
 - Invoke a function using curl
 - Observe auto-scaling kicking in
 
-### [Lab 10 - Advanced Feature - Secrets]((/Lab10)
+### [Lab 10 - Advanced Feature - Secrets](/Lab10)
 - Adapt issue-bot to use a secret
 - Create a Swarm secret
 - Access the secret within the function
 
 ### [Lab 11 - Advanced feature - Trust with HMAC](/Lab11)
 - Apply trust to functions using HMAC
+
+## Công cụ sử dụng
+
+- Pigo: https://github.com/tri105/faas-pigo
+- Client: https://github.com/tri105/mec-client
 
 ## Nguồn tham khảo
 

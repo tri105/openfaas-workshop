@@ -26,13 +26,13 @@ Application:
 - OpenFaaS CLI
 - Deploy OpenFaaS
 
-### Lab 2 - Test things out
+### [Lab 2 - Test things out](/Lab2)
 - Use the UI Portal
 - Deploy via the Function Store
 - Learn about the CLI
 - Find metrics with Prometheus
 
-### Lab 3 - Introduction to Functions
+### [Lab 3 - Introduction to Functions](/Lab3)
 - Scaffold or generate a new function
 - Build the astronaut-finder function
 - Add dependencies with pip
@@ -41,7 +41,7 @@ Application:
 - Use custom and third-party language templates
 - Discover community templates using the Template Store
 
-### Lab 4 - Go deeper with functions
+### [Lab 4 - Go deeper with functions](/Lab4)
 - Inject configuration through environmental variables
 - At deployment using yaml
 - Dynamically using HTTP context - querystring / headers etc
@@ -51,7 +51,7 @@ Application:
 - Chaining functions on the client-side
 - Call one function from another
 
-### Lab 5 - Create a GitHub bot
+### [Lab 5 - Create a GitHub bot](/Lab5)
 - Build issue-bot - an auto-responder for GitHub Issues
 - Get a GitHub account
 - Set up a tunnel with ngrok
@@ -61,21 +61,21 @@ Application:
 - Apply labels via the GitHub API
 - Complete the function
 
-### Lab 6 - HTML for your functions
+### [Lab 6 - HTML for your functions]((/Lab6)
 - Generate and return basic HTML from a function
 - Read and return a static HTML file from disk
 - Collaborate with other functions
 
-### Lab 7 - Asynchronous Functions
+### [Lab 7 - Asynchronous Functions]((/Lab7)
 - Call a function synchronously vs asynchronously
 - View the queue-worker's logs
 - Use an X-Callback-Url with requestbin and ngrok
 
-### Lab 8 - Advanced Feature - Timeouts
+### [Lab 8 - Advanced Feature - Timeouts](/Lab8)
 - Adjust timeouts with read_timeout
 - Accommodate longer running functions
 
-#### Lab 9 - Advanced Feature - Auto-scaling
+### [Lab 9 - Advanced Feature - Auto-scaling]((/Lab9)
 - See auto-scaling in action
 - Some insights on min and max replicas
 - Discover and visit local Prometheus
@@ -83,12 +83,12 @@ Application:
 - Invoke a function using curl
 - Observe auto-scaling kicking in
 
-### Lab 10 - Advanced Feature - Secrets
+### [Lab 10 - Advanced Feature - Secrets]((/Lab10)
 - Adapt issue-bot to use a secret
 - Create a Swarm secret
 - Access the secret within the function
 
-### Lab 11 - Advanced feature - Trust with HMAC
+### [Lab 11 - Advanced feature - Trust with HMAC](/Lab11)
 - Apply trust to functions using HMAC
 
 ## Nguồn tham khảo

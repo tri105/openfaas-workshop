@@ -7,7 +7,7 @@
 
 ## Phần mềm/Phần cứng sử dụng
 
-OS: Ubuntu Desktop 2004
+OS: Ubuntu Desktop 20.04 LTS
 - CPU: 2 cores
 - Memory: 4GB
 - Hard disk: 20 GB
@@ -91,11 +91,13 @@ Application:
 ### [Lab 11 - Advanced feature - Trust with HMAC](/Lab11)
 - Apply trust to functions using HMAC
 
-## Công cụ sử dụng
+## Các công cụ sử dụng để đánh giá hiệu năng
 
 - Pigo: https://github.com/tri105/faas-pigo
 - Client: https://github.com/tri105/mec-client
+- Hey: https://github.com/rakyll/hey
 
 ## Nguồn tham khảo
 
 - https://github.com/openfaas/workshop
+

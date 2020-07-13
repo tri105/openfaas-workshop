@@ -1,5 +1,5 @@
 # openfaas-workshop
-Đồ án Chuyên ngành
+Đồ án Chuyên ngành / MMTT2016-K11
 
 - Tên tiếng Việt: Nghiên cứu thực nghiệm về triển khai và đánh giá nền tảng Serverless mã nguồn mở OpenFaaS trên Kubernetes
 
@@ -7,7 +7,10 @@
 
 ## Phần mềm/Phần cứng sử dụng
 
-OS: Ubuntu Desktop 20.04 LTS
+Virtualization
+- Virtual Machine: VMware Workstation 15 Pro 15.5.6 build-16341506
+
+Operating System: Ubuntu Desktop 20.04 LTS
 - CPU: 2 cores
 - Memory: 4GB
 - Hard disk: 20 GB
